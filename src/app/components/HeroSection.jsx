@@ -17,16 +17,15 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "Piyush Kumar",
                 1000,
                 "Web Developer",
                 1000,
-
               ]}
               wrapper="span"
               speed={50}
@@ -34,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            "A software developer with a strong foundation in JavaScript, React, and backend technologies. Open to exciting opportunities where I can contribute and grow."
+            A software developer with a strong foundation in JavaScript, React, and backend technologies. Open to exciting opportunities where I can contribute and grow.
           </p>
           <div>
             <Link
@@ -62,13 +61,12 @@ const HeroSection = () => {
           <div className="relative w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] rounded-full bg-[#181818] overflow-hidden flex items-center justify-center">
             <Image
               src="/images/hero-image.png"
-              alt="hero image"
+              alt="Piyush Kumar - Web Developer profile picture"
               className="w-full h-full object-cover"
               width={400}
               height={400}
             />
           </div>
-
         </motion.div>
       </div>
     </section>
